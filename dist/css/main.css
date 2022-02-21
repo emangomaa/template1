@@ -87,7 +87,7 @@ body {
       transform: translate(-50%, -50%);
       text-align: center; }
       .hero .flash .container .hero-text h1 {
-        font-size: 64px;
+        font-size: 56px;
         font-weight: 700;
         line-height: 1.1;
         letter-spacing: -1px;
@@ -165,7 +165,7 @@ body {
       width: 200px;
       margin: 12px; }
       .getInTouch .contact div i {
-        font-size: 24px;
+        font-size: 28px;
         color: #e8590c; }
       .getInTouch .contact div p {
         font-size: 12px;
