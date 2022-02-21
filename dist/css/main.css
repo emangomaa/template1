@@ -14,13 +14,13 @@ body {
   text-decoration: none;
   color: #ced4da; }
 
-.p-style, .hero .flash .container .hero-text p, .need .need-content p {
+.p-style, .hero .flash .container .hero-text p, .need .need-content p, .services .container .our-service div p {
   font-size: 16px;
   font-weight: 400;
   color: #ced4da;
   line-height: 1.4; }
 
-.span-style, .hero .flash .container .hero-text span, .need .need-content span {
+.span-style, .hero .flash .container .hero-text span, .need .need-content span, .services .container span {
   display: block;
   width: 50px;
   height: 2px;
@@ -42,6 +42,11 @@ body {
     color: #e8590c;
     transform: scale(1.5);
     cursor: pointer; }
+
+.h2, .need .need-content h2, .services .container h2 {
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: capitalize; }
 
 .hero {
   background-image: url("../img/heroimage.jpg");
@@ -101,11 +106,36 @@ body {
     left: 50%;
     transform: translate(-50%, -50%); }
     .need .need-content h2 {
-      font-size: 32px;
-      font-weight: 700;
       color: #ced4da; }
     .need .need-content span {
       background-color: #ced4da; }
     .need .need-content button {
       background-color: #ced4da;
       color: #000; }
+
+.services {
+  text-align: center;
+  margin-top: 52px; }
+  .services .container .our-service {
+    display: flex;
+    justify-content: space-around;
+    padding: 24px; }
+    .services .container .our-service div i {
+      color: #e8590c;
+      font-size: 28px; }
+    .services .container .our-service div h3 {
+      margin: 16px;
+      text-transform: capitalize; }
+    .services .container .our-service div p {
+      color: #666; }
+
+.images {
+  margin-top: 44px; }
+  .images div {
+    display: flex; }
+    .images div .img-item {
+      flex: 1;
+      height: 250px; }
+      .images div .img-item img {
+        width: 100%;
+        height: 100%; }
