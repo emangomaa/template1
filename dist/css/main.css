@@ -14,20 +14,20 @@ body {
   text-decoration: none;
   color: #ced4da; }
 
-.p-style, .hero .flash .container .hero-text p, .need .need-content p, .services .container .our-service div p {
+.p-style, .hero .flash .container .hero-text p, .need .need-content p, .services .container .our-service div p, .getInTouch p {
   font-size: 16px;
   font-weight: 400;
   color: #ced4da;
   line-height: 1.4; }
 
-.span-style, .hero .flash .container .hero-text span, .need .need-content span, .services .container span {
+.span-style, .hero .flash .container .hero-text span, .need .need-content span, .services .container span, .getInTouch span {
   display: block;
   width: 50px;
   height: 2px;
   background-color: #e8590c;
   margin: 20px auto; }
 
-.button-style, .hero .flash .container .hero-text button, .need .need-content button {
+.button-style, .hero .flash .container .hero-text button, .need .need-content button, .download button {
   padding: 10px 20px;
   background-color: #e8590c;
   color: #ced4da;
@@ -37,13 +37,13 @@ body {
   margin-top: 44px;
   text-transform: uppercase;
   transition: all 0.5s ease-in-out; }
-  .button-style:hover, .hero .flash .container .hero-text button:hover, .need .need-content button:hover {
+  .button-style:hover, .hero .flash .container .hero-text button:hover, .need .need-content button:hover, .download button:hover {
     background-color: #ced4da;
     color: #e8590c;
     transform: scale(1.5);
     cursor: pointer; }
 
-.h2, .need .need-content h2, .services .container h2 {
+.h2, .need .need-content h2, .services .container h2, .download h2, .getInTouch h2 {
   font-size: 32px;
   font-weight: 700;
   text-transform: capitalize; }
@@ -135,7 +135,39 @@ body {
     display: flex; }
     .images div .img-item {
       flex: 1;
-      height: 250px; }
+      height: 250px;
+      position: relative; }
       .images div .img-item img {
         width: 100%;
         height: 100%; }
+
+.download {
+  background-color: #000;
+  text-align: center;
+  padding: 56px 0; }
+  .download h2 {
+    color: #ced4da;
+    text-transform: capitalize; }
+  .download button {
+    background-color: #ced4da;
+    color: #666; }
+
+.getInTouch {
+  text-align: center;
+  padding: 54px 0; }
+  .getInTouch p {
+    color: #666; }
+  .getInTouch .contact {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px; }
+    .getInTouch .contact div {
+      width: 200px;
+      margin: 12px; }
+      .getInTouch .contact div i {
+        font-size: 24px;
+        color: #e8590c; }
+      .getInTouch .contact div p {
+        font-size: 12px;
+        color: #666;
+        padding: 12px; }
