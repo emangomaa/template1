@@ -171,3 +171,5 @@ body {
         font-size: 12px;
         color: #666;
         padding: 12px; }
+        .getInTouch .contact div p:hover {
+          color: #e8590c; }
